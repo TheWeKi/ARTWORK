@@ -1,3 +1,3 @@
 # ARTWORK
-ARTWORK is an Image Gallery
+ARTWORK is an Image Gallery <br>
 AI IMAGE GENERATOR WEB APPLICATION
