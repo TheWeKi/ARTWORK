@@ -10,7 +10,7 @@ const RenderCards = ({ data, title }) => {
   }
 
   return (
-    <h2 className="mt-5 font-bold text-[#6469ff] text-xl uppercase">{title}</h2>
+    <h2 className="mt-5 font-bold text-[#6469ff] text-xl uppercase">{title} <br/> Try Creating Post</h2>
   );
 };
 
@@ -94,7 +94,7 @@ const Home = () => {
               {searchText ? (
                 <RenderCards
                   data={searchedResults}
-                  title="No Search Results Found <br/> Create Post"
+                  title="No Search Results Found"
                 />
               ) : (
                 <RenderCards
